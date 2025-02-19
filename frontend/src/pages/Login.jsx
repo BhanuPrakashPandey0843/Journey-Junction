@@ -41,7 +41,7 @@ const Login = () => {
                   <FormGroup>
                     <input type="password" placeholder="Password" required id="password" onChange={handleChange} />
                   </FormGroup>
-                  <Button className="btn secondary__btn auth__btn text-white" type="submit">Login</Button>
+                  <Button className="btn secondary_btn auth_btn" type="submit">Login</Button>
                 </Form>
                 <p>Don't have an account? <Link to="/register">Create a New Account?</Link></p> 
               </div>

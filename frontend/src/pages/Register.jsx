@@ -20,9 +20,9 @@ const Register = () => {
 
   const handleClick = e => {
     e.preventDefault();
-
+    // Add your login logic here
     console.log('Logging in with:', credentials);
-
+    // Example: You can call an API to log in the user
   };
 
   return (
@@ -49,7 +49,7 @@ const Register = () => {
                   <FormGroup>
                     <input type="password" placeholder="Password" required id="password" onChange={handleChange} />
                   </FormGroup>
-                  <Button className="btn secondary__btn auth__btn text-white" type="submit">Create Account</Button>
+                  <Button className="btn secondary_btn auth_btn text-white" type="submit">Create Account</Button>
                 </Form>
                 <p>Already have an account? <Link to="/login">Login</Link></p> 
               </div>
@@ -62,4 +62,3 @@ const Register = () => {
 }
 
 export default Register;
-
